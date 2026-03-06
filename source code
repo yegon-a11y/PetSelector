@@ -45,7 +45,7 @@ public class PetRadioButtonApp extends JFrame implements ActionListener {
         imageLabel.setHorizontalAlignment(JLabel.CENTER);
         add(imageLabel, BorderLayout.CENTER);
 
-        // Add action listeners
+ 
         birdBtn.addActionListener(this);
         catBtn.addActionListener(this);
         dogBtn.addActionListener(this);
